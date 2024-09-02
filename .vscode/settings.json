@@ -1,0 +1,27 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "__pycache__": true,
+        ".vscode": true,
+        "server/termux_lib/__pycache__": true,
+        "server/dummy_all/__pycache__": true,
+        "server/arduino_api/__pycache__": true,
+        "client/__pycache__": true
+    },
+    "hide-files.files": [
+        "__pycache__",
+        ".vscode",
+        "server/termux_lib/__pycache__",
+        "server/dummy_all/__pycache__",
+        "server/arduino_api/__pycache__",
+        "client/__pycache__"
+    ],
+    "python.analysis.extraPaths": [
+        "./server/dummy_all"
+    ]
+}

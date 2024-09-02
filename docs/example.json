@@ -1,0 +1,58 @@
+{
+    "devices": {
+        "aile_left": {
+            "type": "Flank",
+            "name": "左副翼",
+            "angle": 0
+        },
+        "aile_right": {
+            "type": "Flank",
+            "name": "右副翼",
+            "angle": 0
+        },
+        "flap_left": {
+            "type": "Flank",
+            "name": "左襟翼",
+            "angle": 0
+        },
+        "flap_right": {
+            "type": "Flank",
+            "name": "右襟翼",
+            "angle": 0
+        },
+        "tail_vert": {
+            "type": "Flank",
+            "name": "垂直尾翼",
+            "angle": 0
+        },
+        "tail_left": {
+            "type": "Flank",
+            "name": "左尾翼",
+            "angle": 0
+        },
+        "tail_right": {
+            "type": "Flank",
+            "name": "右尾翼",
+            "angle": 0
+        },
+        "engine_main": {
+            "type": "Engine",
+            "name": "主引擎",
+            "speed": 0
+        }
+    },
+    "name": "零号侧卫",
+    "sensors": {
+        "speed": 99,
+        "battery": 0.8,
+        "xangle": 201,
+        "yangle": 108,
+        "zangle": 0,
+        "sign": 322,
+        "cpuload": 0.12,
+        "memload": 0.88,
+        "memsum": 2048,
+        "torch": 0,
+        "acc": 3
+    }
+}
